@@ -1,0 +1,14 @@
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\bin\Debug\net8.0\For.exe
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\bin\Debug\net8.0\For.deps.json
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\bin\Debug\net8.0\For.runtimeconfig.json
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\bin\Debug\net8.0\For.dll
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\bin\Debug\net8.0\For.pdb
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\obj\Debug\net8.0\For.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\obj\Debug\net8.0\For.AssemblyInfoInputs.cache
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\obj\Debug\net8.0\For.AssemblyInfo.cs
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\obj\Debug\net8.0\For.csproj.CoreCompileInputs.cache
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\obj\Debug\net8.0\For.dll
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\obj\Debug\net8.0\refint\For.dll
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\obj\Debug\net8.0\For.pdb
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\obj\Debug\net8.0\For.genruntimeconfig.cache
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\For\obj\Debug\net8.0\ref\For.dll

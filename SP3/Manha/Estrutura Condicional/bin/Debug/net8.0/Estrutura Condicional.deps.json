@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Estrutura Condicional/1.0.0": {
+        "runtime": {
+          "Estrutura Condicional.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Estrutura Condicional/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

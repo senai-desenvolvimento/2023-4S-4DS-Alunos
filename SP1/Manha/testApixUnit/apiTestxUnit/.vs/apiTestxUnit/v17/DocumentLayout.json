@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Manha\\testApixUnit\\apiTestxUnit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06CF19D4-EDA8-4FBC-AB18-66263E0C570C}|..\\testApixUnit.Test\\testApixUnit.Test.csproj|c:\\users\\carlos.roque\\desktop\\2023-4s-4ds-alunos\\sp1\\manha\\testapixunit\\testapixunit.test\\productstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891642E-D9FD-4C37-A99A-26C0CC98B919}|apiTestxUnit.csproj|c:\\users\\carlos.roque\\desktop\\2023-4s-4ds-alunos\\sp1\\manha\\testapixunit\\apitestxunit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891642E-D9FD-4C37-A99A-26C0CC98B919}|apiTestxUnit.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891642E-D9FD-4C37-A99A-26C0CC98B919}|apiTestxUnit.csproj|c:\\users\\carlos.roque\\desktop\\2023-4s-4ds-alunos\\sp1\\manha\\testapixunit\\apitestxunit\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891642E-D9FD-4C37-A99A-26C0CC98B919}|apiTestxUnit.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891642E-D9FD-4C37-A99A-26C0CC98B919}|apiTestxUnit.csproj|c:\\users\\carlos.roque\\desktop\\2023-4s-4ds-alunos\\sp1\\manha\\testapixunit\\apitestxunit\\domains\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891642E-D9FD-4C37-A99A-26C0CC98B919}|apiTestxUnit.csproj|solutionrelative:domains\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsTest.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Manha\\testApixUnit\\testApixUnit.Test\\ProductsTest.cs",
+              "RelativeDocumentMoniker": "..\\testApixUnit.Test\\ProductsTest.cs",
+              "ToolTip": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Manha\\testApixUnit\\testApixUnit.Test\\ProductsTest.cs",
+              "RelativeToolTip": "..\\testApixUnit.Test\\ProductsTest.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAgwGEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T11:56:51.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Manha\\testApixUnit\\apiTestxUnit\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Manha\\testApixUnit\\apiTestxUnit\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T16:36:28.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Manha\\testApixUnit\\apiTestxUnit\\Domains\\Products.cs",
+              "RelativeDocumentMoniker": "Domains\\Products.cs",
+              "ToolTip": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Manha\\testApixUnit\\apiTestxUnit\\Domains\\Products.cs",
+              "RelativeToolTip": "Domains\\Products.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T13:26:47.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Manha\\testApixUnit\\apiTestxUnit\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Manha\\testApixUnit\\apiTestxUnit\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:00:10.47Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\bin\Debug\net8.0\While.exe
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\bin\Debug\net8.0\While.deps.json
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\bin\Debug\net8.0\While.runtimeconfig.json
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\bin\Debug\net8.0\While.dll
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\bin\Debug\net8.0\While.pdb
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\obj\Debug\net8.0\While.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\obj\Debug\net8.0\While.AssemblyInfoInputs.cache
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\obj\Debug\net8.0\While.AssemblyInfo.cs
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\obj\Debug\net8.0\While.csproj.CoreCompileInputs.cache
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\obj\Debug\net8.0\While.dll
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\obj\Debug\net8.0\refint\While.dll
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\obj\Debug\net8.0\While.pdb
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\obj\Debug\net8.0\While.genruntimeconfig.cache
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Repetição\While\obj\Debug\net8.0\ref\While.dll

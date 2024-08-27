@@ -1,0 +1,14 @@
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\bin\Debug\net8.0\Estrutura Condicional.exe
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\bin\Debug\net8.0\Estrutura Condicional.deps.json
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\bin\Debug\net8.0\Estrutura Condicional.runtimeconfig.json
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\bin\Debug\net8.0\Estrutura Condicional.dll
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\bin\Debug\net8.0\Estrutura Condicional.pdb
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.AssemblyInfoInputs.cache
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.AssemblyInfo.cs
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.csproj.CoreCompileInputs.cache
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.dll
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\obj\Debug\net8.0\refint\Estrutura Condicional.dll
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.pdb
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\obj\Debug\net8.0\Estrutura Condicional.genruntimeconfig.cache
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP3\Manha\Estrutura Condicional\obj\Debug\net8.0\ref\Estrutura Condicional.dll

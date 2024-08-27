@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Tarde\\Calculos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34C72BAA-2F77-45B3-AC1F-A97B07143A10}|..\\Calculos.Test\\Calculos.Test.csproj|c:\\users\\carlos.roque\\desktop\\2023-4s-4ds-alunos\\sp1\\tarde\\calculos.test\\calculounittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B205E1BA-88D1-44A4-9513-EE046881D23A}|Calculos.csproj|c:\\users\\carlos.roque\\desktop\\2023-4s-4ds-alunos\\sp1\\tarde\\calculos\\calculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B205E1BA-88D1-44A4-9513-EE046881D23A}|Calculos.csproj|solutionrelative:calculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C72BAA-2F77-45B3-AC1F-A97B07143A10}|..\\Calculos.Test\\Calculos.Test.csproj|c:\\users\\carlos.roque\\desktop\\2023-4s-4ds-alunos\\sp1\\tarde\\calculos.test\\calculos.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B205E1BA-88D1-44A4-9513-EE046881D23A}|Calculos.csproj|c:\\users\\carlos.roque\\desktop\\2023-4s-4ds-alunos\\sp1\\tarde\\calculos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B205E1BA-88D1-44A4-9513-EE046881D23A}|Calculos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculoUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Tarde\\Calculos.Test\\CalculoUnitTest.cs",
+              "RelativeDocumentMoniker": "..\\Calculos.Test\\CalculoUnitTest.cs",
+              "ToolTip": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Tarde\\Calculos.Test\\CalculoUnitTest.cs",
+              "RelativeToolTip": "..\\Calculos.Test\\CalculoUnitTest.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T12:07:49.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculo.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Tarde\\Calculos\\Calculo.cs",
+              "RelativeDocumentMoniker": "Calculo.cs",
+              "ToolTip": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Tarde\\Calculos\\Calculo.cs",
+              "RelativeToolTip": "Calculo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T19:22:08.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculos.Test.csproj",
+              "DocumentMoniker": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Tarde\\Calculos.Test\\Calculos.Test.csproj",
+              "RelativeDocumentMoniker": "..\\Calculos.Test\\Calculos.Test.csproj",
+              "ToolTip": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Tarde\\Calculos.Test\\Calculos.Test.csproj",
+              "RelativeToolTip": "..\\Calculos.Test\\Calculos.Test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-31T19:32:24.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Tarde\\Calculos\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\carlos.roque\\Desktop\\2023-4S-4DS-Alunos\\SP1\\Tarde\\Calculos\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T19:19:00.185Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

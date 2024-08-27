@@ -1,0 +1,14 @@
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\bin\Debug\net8.0\Calculos.exe
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\bin\Debug\net8.0\Calculos.deps.json
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\bin\Debug\net8.0\Calculos.runtimeconfig.json
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\bin\Debug\net8.0\Calculos.dll
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\bin\Debug\net8.0\Calculos.pdb
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\obj\Debug\net8.0\Calculos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\obj\Debug\net8.0\Calculos.AssemblyInfoInputs.cache
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\obj\Debug\net8.0\Calculos.AssemblyInfo.cs
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\obj\Debug\net8.0\Calculos.csproj.CoreCompileInputs.cache
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\obj\Debug\net8.0\Calculos.dll
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\obj\Debug\net8.0\refint\Calculos.dll
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\obj\Debug\net8.0\Calculos.pdb
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\obj\Debug\net8.0\Calculos.genruntimeconfig.cache
+C:\Users\carlos.roque\Desktop\2023-4S-4DS-Alunos\SP1\Tarde\Calculos\obj\Debug\net8.0\ref\Calculos.dll
