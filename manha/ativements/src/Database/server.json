@@ -1,0 +1,16 @@
+{
+  "locais": [],
+  "ativos": [],
+  "usuarios": [
+    {
+      "id": "338c80eb-12e5-4011-b3ce-9160142a67c7",
+      "login": "s",
+      "imagem": "https://avatars.githubusercontent.com/u/1969638?v=4"
+    },
+    {
+      "id": "398f605f-9e2f-44e2-9df3-2d9080d6677f",
+      "login": "lucsilveira",
+      "imagem": "https://avatars.githubusercontent.com/u/50583973?v=4"
+    }
+  ]
+}
