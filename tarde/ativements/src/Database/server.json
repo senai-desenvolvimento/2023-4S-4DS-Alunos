@@ -1,0 +1,26 @@
+{
+  "locais": [
+    {
+      "id": "e7e87134-1178-4366-91fc-c34e912b70db",
+      "nome": "123123123"
+    }
+  ],
+  "ativos": [
+    {
+      "id": "6bdd02f9-a6d9-4804-bc15-5cf587d91327",
+      "nome": "123123123",
+      "numero": "123123",
+      "local": "e7e87134-1178-4366-91fc-c34e912b70db",
+      "dataRegistro": "12/09/2024, 14:29:29",
+      "usuario_id": "3094d153-f70f-40b3-af64-10d94bdd8add",
+      "status": true
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "3094d153-f70f-40b3-af64-10d94bdd8add",
+      "login": "s",
+      "imagem": "https://avatars.githubusercontent.com/u/1969638?v=4"
+    }
+  ]
+}
