@@ -2,7 +2,7 @@ import React from 'react'
 
 import { ButtonTransparent } from  "../Button"
 
-const Table = () => {
+const Table = ({ list }) => {
   return (
     <table className='w-full mt-10'>
       <thead>
@@ -15,16 +15,22 @@ const Table = () => {
       </thead>
 
       <tbody>
-        <tr className='hover:bg-[#f1f0f5] hover:last:border-l-2 hover:border-primary-purple'>
-          <td className='py-5 px-10 text-left'>1234567890</td>
-          <td className='py-5 px-10 text-left'>Cadeira de escritório</td>
-          <td className='py-5 px-10 text-left'>10/09/2024 08:11</td>
-          <td className='py-5 px-10 text-left flex gap-5'>
-            <ButtonTransparent styles="border-none py-0 px-0 text-[#009e9e]">Editar ativo</ButtonTransparent>
+        {
+          list.map( (item, index) => {
+            return (
+              <tr key={index} className='hover:bg-[#f1f0f5] hover:last:border-l-2 hover:border-primary-purple'>
+                <td className='py-5 px-10 text-left'>{item.numero}</td>
+                <td className='py-5 px-10 text-left'>{item.nome}</td>
+                <td className='py-5 px-10 text-left'>{item.dataRegistro}</td>
+                <td className='py-5 px-10 text-left flex gap-5'>
+                  <ButtonTransparent styles="border-none py-0 px-0 text-[#009e9e]">Editar ativo</ButtonTransparent>
 
-            <ButtonTransparent styles="border-none py-0 px-0 text-primary-red">Remover ativo</ButtonTransparent>
-          </td>
-        </tr>
+                  <ButtonTransparent styles="border-none py-0 px-0 text-primary-red">Remover ativo</ButtonTransparent>
+                </td>
+              </tr>
+            )
+          })
+        }
       </tbody>
     </table>
   )

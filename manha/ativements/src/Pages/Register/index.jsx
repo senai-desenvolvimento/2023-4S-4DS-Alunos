@@ -73,7 +73,7 @@ const Register = ({ onLinking, setUser }) => {
         body : JSON.stringify(data)
       });
 
-      setUser(data)
+      setUser(data) // Estou alimentando os dados do usuario no context
 
       navigate("/painel-ativos")
     }catch{

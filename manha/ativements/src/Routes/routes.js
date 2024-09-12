@@ -19,7 +19,7 @@ export const RoutesPage = () => {
         <Route element={<App setUser={setUser} />} path="/"/>
 
         <Route element={
-          <context.Provider value={{ user }}>
+          <context.Provider value={{ user, setUser }}>
             <ProtectRoute>
               <Painel />
             </ProtectRoute>
@@ -28,7 +28,7 @@ export const RoutesPage = () => {
 
         {/* Configuracao para evitar error de rota */}
         <Route path="/*" element={<Navigate to="/"/>} />
-      </Routes>
+      </Routes>+
     </BrowserRouter>
   )
 }

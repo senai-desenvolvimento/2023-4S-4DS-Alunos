@@ -24,7 +24,7 @@ const Login = ({ onLinking, setUser }) => {
           id : response[0].id,
           login : response[0].login,
           imagem : response[0].imagem,
-        })
+        }) // Alimentando os dados do usuario no contexto
 
         navigate("/painel-ativos");
       }else{

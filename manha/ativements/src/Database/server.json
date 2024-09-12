@@ -1,11 +1,31 @@
 {
-  "locais": [],
-  "ativos": [],
+  "locais": [
+    {
+      "id": "asdas7d8a7sd87asd87asd87a6sd",
+      "nome": "Arena Cyber"
+    },
+    {
+      "id": "6a54sd65a4s65a6sd54a6sd5",
+      "nome": "Sala 19"
+    }
+  ],
+  "ativos": [
+    {
+      "id": "4e5a0725-870b-4e9f-ba36-46003e506f41",
+      "numero": "987654321",
+      "nome": "Mouse de computador 3",
+      "local": "asdas7d8a7sd87asd87asd87a6sd",
+      "usuario_id": "338c80eb-12e5-4011-b3ce-9160142a67c7",
+      "dataRegistro": "2024-09-11T12:11:39.168Z",
+      "status": true
+    }
+  ],
   "usuarios": [
     {
       "id": "338c80eb-12e5-4011-b3ce-9160142a67c7",
       "login": "s",
-      "imagem": "https://avatars.githubusercontent.com/u/1969638?v=4"
+      "imagem": "https://avatars.githubusercontent.com/u/1969638?v=4",
+      "ultimoAcesso": "2024-09-11T13:20:14.168Z"
     },
     {
       "id": "398f605f-9e2f-44e2-9df3-2d9080d6677f",
