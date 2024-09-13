@@ -1,30 +1,33 @@
+import logomarca from "./assets/logomarca.png";
+
+import { Paragraph, Title } from "./Components/Texts/index";
+
+import Login from './Pages/Login';
+import Cadastro from "./Pages/Cadastro";
 import { useState } from "react";
-import logomarca from "./Assets/logomarca.png"
 
-import { Paragraph, Title } from "./Components/Texts";
-import Login from "./Pages/Login";
-
-import Register from "./Pages/Register";
-
-function App({ setUser }) {
-  const [left, setLeft] = useState("")
+function App({ acessoUsuario }) {
+  const [statusRegistro, setStatusRegistro] = useState(true);
 
   return (
-    <main className="flex h-screen sm:flex-col md:flex-row">
-
-      <section className={`flex flex-col items-center justify-center bg-atvGradient w-[50%] absolute h-screen transition-all duration-500 ${left}`}>
+    <main className="flex lg:flex-row flex-1 h-screen bg-complementary-white flex-col">
+      {/* Criando o painel de aprensentacao */}
+      <div className={`flex flex-col items-center justify-center bg-atvGradient transition-[1s] absolute
+        lg:h-screen lg:w-[50%] h-[50%] md:w-full ${statusRegistro ? "lg:left-[50%] lg:top-0 md:left-0 md:top-[50%]" : "lg:left-0 lg:top-0 md:left-0 md:top-0"}`}>
         <Title styles="text-complementary-white">
-          Bem-vindo ao <img className="mt-3" src={logomarca} alt="Ativements" />
+          Bem-vindo ao
+          <img className="mt-3 w-[100%]" src={logomarca} alt="Ativements" />
         </Title>
 
         <Paragraph styles="text-complementary-white mt-[60px]">
-          A plataforma eficiente para gerenciar e acompanhar todos os recursos da escola SENAI Informática
+          A plataforma eficiente para gerenciar e acompanhar todos os recursos
+          da escola SENAI Informática
         </Paragraph>
-      </section>
+      </div>
 
-      <Register onLinking={e => setLeft("left-[0%]")} setUser={setUser} />
-
-      <Login onLinking={e => setLeft("left-[50%]")} setUser={setUser} />
+      {/* Importando a tela de login */}
+      <Cadastro setStatusRegistro={setStatusRegistro} acessoUsuario={acessoUsuario} />
+      <Login setStatusRegistro={setStatusRegistro} acessoUsuario={acessoUsuario} />
     </main>
   );
 }

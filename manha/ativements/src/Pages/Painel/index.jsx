@@ -1,62 +1,61 @@
 import React, { useEffect, useState } from 'react'
 import Header from '../../Components/Header'
-import { FormAtivement } from '../../Components/Forms'
+import { FormAtivement } from '../../Components/Form'
 import Tabs from '../../Components/Tabs'
-import Table from '../../Components/Table'
+import List from '../../Components/List'
 
 const Painel = () => {
-  const [places, setPlaces] = useState([])
-  const [selectedPlace, setSelectedPlace] = useState("")
-  const [listAtivements, setListAtivements] = useState([]);
+  const [labelActive, setLabelActive] = useState("")
+  const [ativiment, setAtiviment] = useState({});
+  const [labels, setLabels] = useState([]);
+  const [ativos, setAtivos] = useState([]);
 
-  const getPlaces = () => {
+  const procurarPorLocais = () => {
     fetch("http://localhost:3000/locais")
     .then(response => response.json())
-    .then(response => {
-      setPlaces(response);
+    .then((response) => {
+      setLabels(response);
 
-      // Se tiver ao menos um local cadastrado, usar o primeiro resultado como filtro dos ativos
       if(response[0]){
-        setSelectedPlace(response[0].id)
+        setLabelActive(response[0].id);
       }
     })
     .catch(() => {
-      alert("Erro inesperado, não foi possível obter os locais dos ativos")
-    })
-  }
+      alert("Erro inesperado: Não foi possível procurar por locais de ativos");
+    });
+  };
 
-  useEffect(() => {
-    if(selectedPlace === ""){
-      getPlaces()
+  useEffect(procurarPorLocais, []);
+  
+  const listarAtivos = (local) => {
+    if(local){
+      fetch("http://localhost:3000/ativos?local_id=" + local)
+      .then((response) => response.json())
+      .then((response) => {
+        setAtivos(response);
+      })
+      .catch((error) => {
+        alert("Erro inesperado 2", "Não foi possível procurar por ativos");
+      });
     }
-  }, []);
-
-  const filterAtivements = (local) => {
-    fetch("http://localhost:3000/ativos?local=" + local)
-    .then(response => response.json())
-    .then(response => {
-      setListAtivements(response)
-    })
-    .catch(() => {
-      alert("Não foi possível obter os ativos")
-    })
   }
 
   useEffect(() => {
-    filterAtivements(selectedPlace)
-  }, [selectedPlace])
+    listarAtivos(labelActive)
+  }, [labelActive]);  
 
   return (
-    <div className='w-10/12 mx-auto my-0'>
-      <Header />
-      
-      {/* Formulário de ativo */}
-      <FormAtivement />
+    <div className="flex flex-col items-center p-2">
+      <Header/>
 
-      {/* tabs - locais dos ativos */}
-      <Tabs places={places} selectedPlace={selectedPlace} setSelectedPlace={setSelectedPlace}  />
+      {/* Formulario de ativos */}
+      <FormAtivement labels={labels} setLabels={setLabels} ativos={ativos} setAtivos={setAtivos} ativiment={ativiment} />
 
-      <Table list={listAtivements} />
+      {/* Aba de locais */}
+      <Tabs labels={labels} labelActive={labelActive} setLabelActive={setLabelActive} />
+
+      {/* Lista de ativos */}
+      <List listaAtivos={ativos.filter(x => x.local_id === labelActive)} setAtivos={setAtivos} setAtiviment={setAtiviment} />
     </div>
   )
 }
