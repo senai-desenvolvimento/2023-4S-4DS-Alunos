@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 *{
-  @apply text-complementary-gray;
-}
-
-body{
-  @apply bg-complementary-white;
+  @apply text-complementary-gray
 }

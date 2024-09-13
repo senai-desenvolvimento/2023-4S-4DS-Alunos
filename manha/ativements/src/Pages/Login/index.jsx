@@ -1,76 +1,65 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
-import { Paragraph, TextError, Title } from "../../Components/Texts/index";
-import { FormAcess } from "../../Components/Form/index";
-import { ButtonLink } from "../../Components/Button";
+import { Paragraph, TextError, Title } from '../../Components/Texts'
+import { ButtonLink } from '../../Components/Button'
+import { FormAccess } from '../../Components/Forms'
 
-import { useNavigate } from "react-router-dom";
-
-const Login = ({ setStatusRegistro, acessoUsuario }) => {
+const Login = ({ onLinking, setUser }) => {
   const navigate = useNavigate();
 
   const [load, setLoad] = useState(false);
-  const [nomeAcesso, setNomeAcesso] = useState("");
-  const [mensagem, setMensagem] = useState("");
+  const [message, setMessage] = useState("");
+  const [userAccess, setUserAccess] = useState("");
 
-  const verificarAcesso = (e) => {
+  const verifyAccess = (e) => {
     e.preventDefault();
-    setLoad(true);
-    
-    // Verificando o acesso dentro do servidor
-    fetch(`http://localhost:3000/usuarios?login=${nomeAcesso.toLowerCase()}`)
-    .then(response => response.json())
-    .then(response => {
-      if(response[0].login){
-        setMensagem("");
 
-        // Atualizar a informação dentro do context
-        acessoUsuario({
-          id: response[0].id,
-          nome: response[0].nome,
-          imagem: response[0].imagem,
-          login: response[0].login,
-        });
-        
-        //Redirecionando para tela de dashboard
+    setLoad(true)
+    fetch(`http://localhost:3000/usuarios?login=${userAccess.toLowerCase()}`)
+    .then( response => response.json() )
+    .then( response => {
+      if(response[0]){
+        setUser({
+          id : response[0].id,
+          login : response[0].login,
+          imagem : response[0].imagem,
+        }) // Alimentando os dados do usuario no contexto
+
         navigate("/painel-ativos");
-        
       }else{
-        setMensagem("Usuário não encontrado, tente novamente")
+        setMessage("Usuário não encontrado, tente novamente");
       }
     })
-    .catch(error => { 
-      setMensagem("Não foi possível efetuar o login, tente novamente")
-    });
-    
-    // Limpando o campo digitado
-    setLoad(false);
-    setNomeAcesso("");
+    .catch( () => {
+      setMessage("Não foi possível efetuar o login, teste sua conexão com a internet")
+    })
+
+    setLoad(false)
+    setUserAccess("")
   }
 
   return (
-    <section className="flex flex-1 flex-col items-center justify-center gap-8 sm:gap-4">
+    <section className='flex flex-1 flex-col items-center justify-center gap-8'>
       <Title>Entrar na plataforma</Title>
 
-      <Paragraph styles="">
-        Para acessar sua conta, informe seu usuário de acesso vículado ao Github
-      </Paragraph>
+      <Paragraph>Para acessar sua conta, informe seu usuário de acesso vínculado ao Github</Paragraph>
 
-      {/* Formulario de acesso */}
-      <FormAcess
-        placeholder="Acessar conta"
-        onSubmit={verificarAcesso} load={load}
-        value={nomeAcesso} onChange={e => setNomeAcesso(e.target.value)}
+      {/* Formulario de cadastro */}
+      <FormAccess
+        load={load}
+        onSubmit={verifyAccess}
+        textButton="Acessar conta"
+
+        value={userAccess}
+        onChange={e => setUserAccess(e.target.value)}
       />
 
-      <TextError>{mensagem}</TextError>
+      <TextError>{message}</TextError>
 
-      <p className="text-xl">
-        Seu primeiro acesso?
-        <ButtonLink onClick={e => setStatusRegistro(true)}>registrar conta</ButtonLink>
-      </p>
+      <Paragraph>Seu primeiro acesso? <ButtonLink onClick={onLinking}>registre-se aqui</ButtonLink></Paragraph>
     </section>
-  );
-};
+  )
+}
 
-export default Login;
+export default Login

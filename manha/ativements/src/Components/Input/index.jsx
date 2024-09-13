@@ -1,19 +1,18 @@
-import React from 'react'
-
 export const Input = (props) => {
   return (
     <div className={props.styles}>
-      <label htmlFor={props.id} className='text-lg block mb-2 font-base'>{props.children}</label>
+      <label className="block text-lg font-base mb-2" htmlFor={props.id}>{props.children}</label>
 
       <input
-        id={props.id} type="text"
-        className="w-full p-2 px-3 border border-complementary-gray rounded bg-complementary-white disabled:bg-[#ddd] disabled:cursor-not-allowed"
+        disabled={props.disabled}
+        className="w-full py-2 px-3 border rounded border-complementary-gray"
 
-        autoComplete='off'
+        id={props.id}
+        type={props.type}
+        autoComplete="off"
 
         required
         value={props.value}
-        disabled={props.disabled}
         onChange={props.onChange}
       />
     </div>
@@ -23,46 +22,28 @@ export const Input = (props) => {
 export const Select = (props) => {
   return (
     <div className={props.styles}>
-      <label htmlFor={props.id} className='text-lg block mb-2 font-base'>{props.children}</label>
+      <label className="block text-lg font-base mb-2" htmlFor={props.id}>{props.children}</label>
 
       <input
-        type="text"
+        list="list-places"
+        className="w-full py-2 px-3 border rounded border-complementary-gray"
+
         id={props.id}
-        autoComplete='off'
-        list="sugestion-items"
-        className="w-full p-2 px-3 border border-complementary-gray rounded bg-complementary-white"
-        
+        type="text"
+        autoComplete="off"
+
         required
         value={props.value}
         onChange={props.onChange}
       />
 
-      <datalist id="sugestion-items">
+      <datalist id="list-places">
         {
-          props.options.map((item, index) => {
-            return (
-              <option key={item.id} value={item.nome}/>
-            );
+          props.places.map( (item, index) => {
+            return <option value={item.nome} />
           })
         }
       </datalist>
-
-      {/* <select
-        required id={props.id} autoComplete='off'
-        value={props.value} onChange={props.onChange}
-        className="w-full p-2 px-3 border border-complementary-gray rounded bg-complementary-white"
-      > 
-        <option defaultChecked></option>
-        {
-          props.options.map((item, index) => {
-            return (
-              <option key={index} value={item.id}>
-                {item.nome}
-              </option>
-            );
-          })
-        }
-      </select> */}
     </div>
   )
 }

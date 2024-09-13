@@ -2,13 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { RoutesPages } from './Routes/routes';
-import Painel from './Pages/Painel';
+import { RoutesPage } from './Routes/routes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RoutesPages />
-    {/* <Painel /> */}
+    <RoutesPage />
   </React.StrictMode>
 );
