@@ -23,6 +23,34 @@ export const FormAtivement = ({ list, setList, places, setPlaces, update }) => {
     local : ""
   })
 
+  const clearInputs = () => {
+    setAtivement({ numero : "", nome : "", local : ""})
+  }
+
+  const updateAtivement = async () => {
+    try{
+      const localId = await findPlace(ativement.local)
+
+      const data = {
+        ...ativement,
+        local : localId,
+        dataAtualizacao : new Date().toLocaleString(),
+        usuarioAlteracao : user.id
+      }
+
+      fetch("http://localhost:3000/ativos/" + ativement.id, {
+        method : "PUT",
+        body : JSON.stringify(data)
+      });
+
+      // Atualizar o ativo na lista de ativos
+      setList( list.map(item => item.id === ativement.id ? data : item))
+
+    }catch{
+      alert("Não foi possível atualizar o ativo")
+    }
+  }
+
   const validateData = async (e) => {
     e.preventDefault();
 
@@ -41,13 +69,18 @@ export const FormAtivement = ({ list, setList, places, setPlaces, update }) => {
       // verificar se no campo de nome e local, não contem somente espaços vazios
       alert("Campos não preenchidos corretamente")
 
-    }else if(numeracaoEmUso){
+    }else if(numeracaoEmUso && !ativement.id){
       // A numeracao do ativo, não pode ser repetida
       alert("Número do ativo já utilizado, informe outra numeração")
 
     }else{
-      // Caso tudo certo, cadastrar/editar ativo
-      createAtivement();
+      if(!ativement.id){
+        // Caso tudo certo, cadastrar/editar ativo
+        createAtivement();
+
+      }else{
+        updateAtivement()
+      }
     }
   } 
 
@@ -129,7 +162,11 @@ export const FormAtivement = ({ list, setList, places, setPlaces, update }) => {
   }
 
   useEffect(() => {
-    setAtivement(update)
+    const local = places.filter(item => item.id === update.local )
+
+    if(local[0]){
+      setAtivement({ ...update, local : local[0].nome})
+    }
   }, [update])
 
   return (
@@ -141,7 +178,7 @@ export const FormAtivement = ({ list, setList, places, setPlaces, update }) => {
 
       <Select places={places} styles="w-[20%]" id="localativo" value={ativement.local} onChange={e => setAtivement({...ativement, local : e.target.value})}>Local do ativo</Select>
 
-      <ButtonTransparent styles="w-[15%] border-primary-blue text-primary-blue">Limpar campos</ButtonTransparent>
+      <ButtonTransparent onClick={e => clearInputs()} styles="w-[15%] border-primary-blue text-primary-blue">Limpar campos</ButtonTransparent>
 
       <Button styles="w-[15%]">Inserir ativo</Button>
     </form>

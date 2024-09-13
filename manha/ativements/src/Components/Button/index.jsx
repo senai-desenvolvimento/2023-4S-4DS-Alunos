@@ -9,7 +9,7 @@ export const Button = (props) => {
 }
 
 export const ButtonTransparent = (props) => {
-  return <button onClick={props.onClick} className={`flex justify-center items-center border rounded py-2 px-4 ${props.styles}`}>{props.children}</button>
+  return <button onClick={props.onClick} type="button" className={`flex justify-center items-center border rounded py-2 px-4 ${props.styles}`}>{props.children}</button>
 }
 
 export const ButtonLink = (props) => {

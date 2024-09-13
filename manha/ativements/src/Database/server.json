@@ -1,19 +1,36 @@
 {
   "locais": [
     {
-      "id": "215d76b8-60ab-4070-9e4b-aa909105057e",
-      "nome": "asd"
+      "id": "74fb7eac-ddd5-4e00-bc70-ec75bb392add",
+      "nome": "Sala 19"
+    },
+    {
+      "id": "647750c5-4ba2-4ff5-8e5e-758b2036450f",
+      "nome": "Sala 21"
     }
   ],
   "ativos": [
     {
-      "id": "88743ce6-030d-4479-8736-ae56fcda27e7",
+      "id": "97333ced-c6fb-4c54-b792-f9c440d6b91d",
       "numero": "123456",
-      "nome": "asd",
-      "local": "215d76b8-60ab-4070-9e4b-aa909105057e",
+      "nome": "Mouse 2",
+      "local": "74fb7eac-ddd5-4e00-bc70-ec75bb392add",
       "usuario_id": "338c80eb-12e5-4011-b3ce-9160142a67c7",
-      "dataRegistro": "12/09/2024, 10:11:25",
-      "status": true
+      "dataRegistro": "13/09/2024, 08:04:34",
+      "status": true,
+      "dataAtualizacao": "13/09/2024, 08:39:51",
+      "usuarioAlteracao": "338c80eb-12e5-4011-b3ce-9160142a67c7"
+    },
+    {
+      "id": "0ec8fbb2-9282-4bf4-8ce5-9923bbe8f766",
+      "numero": "123476",
+      "nome": "Computador",
+      "local": "74fb7eac-ddd5-4e00-bc70-ec75bb392add",
+      "usuario_id": "338c80eb-12e5-4011-b3ce-9160142a67c7",
+      "dataRegistro": "13/09/2024, 08:26:43",
+      "status": true,
+      "dataAtualizacao": "13/09/2024, 08:26:58",
+      "usuarioAlteracao": "338c80eb-12e5-4011-b3ce-9160142a67c7"
     }
   ],
   "usuarios": [
