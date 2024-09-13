@@ -6,7 +6,7 @@ import Table from '../../Components/Table'
 
 const Painel = () => {
   const [selectedPlace, setSelectedPlace] = useState("" )
-
+  const [update, setUpdate] = useState({})
   const [places, setPlaces] = useState([])
   const [listAtivements, setListAtivements] = useState([])
 
@@ -56,13 +56,13 @@ const Painel = () => {
       <Header />
 
       {/* Formulario para criacao/edicao de ativos */}
-      <FormAtivement places={places} setPlaces={setPlaces}  list={listAtivements} setList={setListAtivements} />
+      <FormAtivement places={places} setPlaces={setPlaces}  list={listAtivements} setList={setListAtivements} update={update} />
 
       {/* Tabs - listagem de locais de ativos */}
       <Tabs places={places} setSelectedPlace={setSelectedPlace} selectedPlace={selectedPlace} />
 
       {/* Listagens dos ativos cadastrados */}
-      <Table list={listAtivements.filter(x => x.local === selectedPlace)} />
+      <Table list={listAtivements.filter(x => x.local === selectedPlace)} setUpdate={setUpdate} setList={setListAtivements} />
     </div>
   )
 }

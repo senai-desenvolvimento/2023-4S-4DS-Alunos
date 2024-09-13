@@ -7,9 +7,10 @@ export const Input = (props) => {
 
       <input
         className="w-full py-2 px-3 border border-complementary-black rounded"
-
+        min="0"
+        disabled={props.disabled}
         id={props.id}
-        type="text"
+        type={props.type}
         autoComplete="off"
         
         required

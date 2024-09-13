@@ -1,19 +1,21 @@
 {
   "locais": [
     {
-      "id": "e7e87134-1178-4366-91fc-c34e912b70db",
-      "nome": "123123123"
+      "id": "bddb76e6-7053-46da-babe-f48255de1720",
+      "nome": "1234567"
     }
   ],
   "ativos": [
     {
-      "id": "6bdd02f9-a6d9-4804-bc15-5cf587d91327",
-      "nome": "123123123",
-      "numero": "123123",
-      "local": "e7e87134-1178-4366-91fc-c34e912b70db",
-      "dataRegistro": "12/09/2024, 14:29:29",
+      "id": "e54d4cd1-f08f-4b5f-99b6-72a8475adb44",
+      "nome": "7654321",
+      "numero": "1234567",
+      "local": "bddb76e6-7053-46da-babe-f48255de1720",
+      "dataRegistro": "12/09/2024, 17:19:19",
       "usuario_id": "3094d153-f70f-40b3-af64-10d94bdd8add",
-      "status": true
+      "status": true,
+      "dataAlteracao": "12/09/2024, 17:19:32",
+      "usuarioAlteracao": "3094d153-f70f-40b3-af64-10d94bdd8add"
     }
   ],
   "usuarios": [
