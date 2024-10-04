@@ -1,0 +1,23 @@
+.botao{
+  cursor: pointer;
+  padding: 14px 45px;
+  border-radius: 10px;
+  border: 2px solid var(--primary-white);
+  background-color: var(--secondary-purple);
+
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-white);
+
+  transition: 1s;
+}
+
+.botao:hover{
+  transform: scale(1.1);
+}
+
+.botao-elevacao{
+  position: absolute;
+  bottom: -15%;
+  right: 0px;
+}

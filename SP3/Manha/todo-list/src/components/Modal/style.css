@@ -1,0 +1,23 @@
+.formulario-tarefa{
+  position: relative;
+
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formulario-tarefa > svg{
+  fill: var(--primary-white);
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  
+  cursor: pointer;
+  transition: 2s;
+}
+
+.formulario-tarefa > svg:hover{
+  transform: scale(1.2);
+}

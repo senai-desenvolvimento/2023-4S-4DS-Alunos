@@ -1,0 +1,42 @@
+.filtro-container{
+  position: relative;
+
+  display: flex;
+  align-items: center;
+}
+
+.filtro-container > svg{
+  position: absolute;
+  left: 10px;
+  padding: 2px;
+}
+
+.campo-formulario{
+  padding: 14px;
+  border-radius: 10px;
+  background-color: transparent;
+
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-white);
+  border: 2px solid var(--primary-white);
+}
+
+.campo-busca{
+  width: 400px;
+  text-align: right;
+}
+
+.campo-descricao{
+  width: 500px;
+  resize: none;
+  min-height: 150px;
+}
+
+.campo-formulario::placeholder{
+  color: var(--primary-white);
+}
+
+.campo-formulario:focus{
+  outline: none;
+}

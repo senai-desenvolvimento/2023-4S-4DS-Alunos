@@ -1,0 +1,284 @@
+.cabecalho{
+  position: absolute;
+  padding: 20px 0;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.navegacao-menu ul{
+  gap: 30px;
+  display: flex;
+}
+
+li a{
+  color: #fafafa;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/****************************************/
+
+.container-principal{
+  background: linear-gradient(95deg, #1E52B4 -10.53%, #002777 103.54%);
+
+  padding: 80px 0 80px;
+}
+
+.container-principal .conteudo-texto{
+  width: 40%;
+}
+
+/*******************************************/
+
+.container-hoteis{
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.filtro-hoteis{
+  width: 75%;
+  top: -50px;
+  border-radius: 8px;
+  padding: 0px 30px;
+  position: relative;
+  background-color: #fff;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.15);
+}
+
+.filtro-hoteis label{
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.filtro-hoteis .campo{
+  padding: 18px 40px;
+  /* padding-right: 5px; */
+  border-right: 2px dotted #4E4B59;
+}
+div.campo{
+  border : none;
+}
+
+.filtro-hoteis .campo img{
+  width: 15px;
+}
+
+label input,
+label input:focus{
+  border: none;
+  outline: none;
+  font-size: 15px;
+  width: 120px;
+}
+
+.filtro-hoteis button{
+  border: none;
+  color: #fafafa;
+  font-weight: 600;
+  cursor: pointer;
+
+  width: 150px;
+  border-radius: 5px;
+  padding: 14px 30px;
+  background-color: #009C3B;
+}
+
+.lista-hoteis{
+  /* margin-top: 40px; */
+
+  gap: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lista-hoteis .card{
+  width: 25%;
+  min-width: 250px;
+  min-width: 260px;
+  padding: 10px;
+}
+
+.lista-hoteis .image-card{
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.conteudo-card{
+  margin: 10px 0;
+  display: flex;
+  font-weight: 600;
+  justify-content: space-between;
+}
+
+.conteudo-card .estado{
+  color: #FFDF00;
+}
+
+.descricao-card{
+  font-size: 14px;
+  line-height: 16px;
+  color: #33303E;
+}
+
+.image-card{
+  background-image: url("https://images.unsplash.com/photo-1711235172674-8ef074fe95eb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+/**********************************************/
+
+.container-propaganda{
+  margin-top: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-propaganda img{
+  width: 50%;
+  max-width: 400px;
+}
+
+.texto-propaganda{
+  width: 40%;
+}
+
+/******************************************/
+
+.container-contatos{
+  padding: 30px;
+  background-color: #009C3B;
+
+  background-size: contain;
+  background-image: url("./assets/bubbles.png");
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*****************************************/
+
+footer.container-rodape{
+  padding: 10px;
+  text-align: center;
+  background-color: #FFDF00;
+}
+
+@media(max-width : 1000px){
+  .filtro-hoteis {
+    padding: 10px 30px;
+
+    justify-content: space-between;
+  }
+
+  .div.campo{
+    border-right: 2px dotted #4E4B59 !important;
+  }
+}
+
+@media (max-width : 950px){  
+  .filtro-hoteis .campo{
+    padding: 10px 20px;
+  }
+
+  .lista-hoteis{
+    gap: 15px 0px;
+    justify-content: space-around;
+  }
+
+  .container-propaganda{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .texto-propaganda{
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+
+@media (max-width : 768px){
+  .cabecalho{
+    gap: 20px;
+  }
+
+  .container-principal{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-principal .container{
+    width: 100%;
+    margin: 0;
+  }
+
+  .container-principal .conteudo-texto{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .container-principal img.img-brasil{
+    display: none;
+  }
+
+  .filtro-hoteis {
+    padding: 10px 25px;
+  }
+
+  .lista-hoteis .card {
+    width: 60%;
+  }
+
+  .card-plus{
+    display: none;
+  }
+}
+
+@media (max-width : 700px){
+  .filtro-hoteis{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .filtro-hoteis .campo{
+    border-right: none;
+    border-bottom : 2px dotted #4E4B59;
+  }
+
+  div.campo{
+    border: none !important;
+  }
+}
+
+
+@media (max-width: 600px){
+  .cabecalho{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-principal{
+    padding-top: 150px;
+  }
+
+  .container-contatos{
+    text-align: center;
+  }
+}

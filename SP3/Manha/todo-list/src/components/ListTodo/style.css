@@ -1,0 +1,121 @@
+.container-lista{
+  width: 90%;
+  list-style: none;
+}
+
+.item-lista{
+  padding: 22px;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  background-color: var(--primary-white);
+
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.item-lista.item-lista.item-confirmado{
+  background-color: var(--secondary-purple);
+}
+
+.descricao-tarefa{
+  font-size: 20px;
+  font-weight: 500;
+  color: #25282C;
+}
+
+.item-lista.item-confirmado .descricao-tarefa{
+  color: var(--primary-white);
+}
+
+.acoes-tarefa{
+  position: absolute;
+  right: 22px;
+}
+
+.botao-tarefa{
+  margin: 3px;
+  width: 35px;
+  height: 36px;
+  padding: 4px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid var(--tertiary-purple);
+}
+
+.item-lista.item-confirmado .botao-tarefa{
+  border: 2px solid var(--primary-white);
+}
+
+.botao-tarefa > svg{
+  fill: var(--tertiary-purple);
+}
+
+.item-lista.item-confirmado .botao-tarefa > svg{
+  fill: var(--primary-white);
+}
+
+/* Estilo básico do checkbox */
+.custom-checkbox {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  user-select: none;
+  top: -12px;
+}
+
+/* Esconder o checkbox original */
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Estilo do checkmark */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-color: #DFB7FF; /* Fundo quando não está marcado */
+  border: 1px solid #8719E0; /* Borda quando não está marcado */
+  border-radius: 5px; /* Opcional: bordas arredondadas */
+}
+
+/* Fundo e borda do checkmark quando está marcado */
+.custom-checkbox input:checked + .checkmark {
+  background-color: #1E123B; /* Fundo quando está marcado */
+  border: 1px solid #1E123B; /* Borda quando está marcado */
+}
+
+/* Estilo do checkmark ao ser clicado */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Mostrar o checkmark quando está marcado */
+.custom-checkbox input:checked + .checkmark:after {
+  display: block;
+}
+
+/* Estilo do checkmark */
+.custom-checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
